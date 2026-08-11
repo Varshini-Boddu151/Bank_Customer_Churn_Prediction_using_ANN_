@@ -1,0 +1,18 @@
+{
+  "threshold": 0.6499999999999997,
+  "feature_columns": [
+    "credit_score",
+    "age",
+    "tenure",
+    "balance",
+    "num_of_products",
+    "has_cr_card",
+    "is_active_member",
+    "estimated_salary",
+    "geography_Germany",
+    "geography_Spain",
+    "gender_Male"
+  ],
+  "test_accuracy": 0.8426666666666667,
+  "test_auc": 0.855943661663437
+}
