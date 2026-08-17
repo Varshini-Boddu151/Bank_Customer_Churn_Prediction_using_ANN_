@@ -3,11 +3,7 @@ import pandas as pd
 import joblib
 import json
 from tensorflow import keras
- 
-# ---------------------------------------------------------
-# Load saved artifacts (from your Colab "Save Model and Scaler" step)
-# Make sure the 'artifacts' folder sits next to this app.py
-# ---------------------------------------------------------
+
 @st.cache_resource
 def load_artifacts():
     scaler = joblib.load("artifacts/scaler.joblib")
